@@ -1,0 +1,204 @@
+:root{
+    --prestige-white: white;
+    --prestige-marron: #45211f;
+    --prestige-red: #8B151D;
+}
+/* -----------------Global style--------------------------------- */
+@font-face {
+    font-family: "edu VICWANT";
+    src: url("../../fonts/EduVICWANT.ttf") format("truetype");
+         
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    font-family: 'edu VICWANT', sans-serif;
+}
+
+h1{
+    text-shadow: 0.2rem 0.1rem var(--prestige-white);
+}
+
+body{
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    text-shadow: 1px 1px var(--prestige-white);
+}
+
+.text-color{
+    color: var(--prestige-marron) !important;
+}
+.bg-button{
+    background-color: var(--prestige-marron) !important;
+}
+.title-color{
+    color: var(--prestige-red);
+}
+a{
+    text-decoration: none;
+    color: var(--prestige-white);
+}
+
+i{
+    padding-left: 0.5rem;
+}
+
+.page-button{
+    font-weight: 700;
+    color: white(--prestige-white);
+    background: var(--prestige-marron);
+    padding: 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #fbee6b;
+    transition: .3s all ease-in-out;
+    text-decoration: none;
+}
+
+.page-button:hover{
+    color: white(--prestige-white);
+    border-radius: 0.8rem;
+    padding: 1.6rem;
+    text-decoration: none;
+    background: #fbee6b;
+    text-shadow: 2px 2px black;
+    border: 2px solid  var(--prestige-white);
+
+}
+
+/* -------------------navbar style--------------------------------- */
+.left-item-nav{
+    margin-left: 45%;
+}
+
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.24) !important;
+}
+
+.left-item-nav li{
+    padding-left: 50px;
+}
+
+.logo-prestige{
+    height: 5.5rem;
+}
+/* -------------navbar change color style---------------------------- */
+.scrolling-active{
+    background-color: var(--prestige-white) !important;
+    color: var(--prestige-marron) !important;
+}
+
+/* -------------------Slide style--------------------------------- */
+.slide-1{
+    background-image: url('../../img/pepe-soup.jpeg');
+}
+
+.slide-2{
+    background-image: url('../../img/nyama-tchoma.jpeg');
+}
+
+.slide-3{
+    background-image: url('../../img/taro.jpg');
+}
+
+.carousel-indicators button{
+    border: 2px solid var(--prestige-marron) !important;
+}
+
+.carousel-control-prev .carousel-control-prev-icon, .carousel-control-next .carousel-control-next-icon{
+    background-color: var(--prestige-marron) !important;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+
+/* -----------------Arrow animation slide-------------------- */
+.arrow{
+    margin-top: 10rem;
+    animation: move 3.1s infinite ease-in-out;
+}
+
+@keyframes move{
+    0%{
+        margin-top: 5rem;
+    }
+    50%{
+        margin-top: 10rem;
+    }
+    100%{
+        margin-top: 5rem;
+    }
+}
+
+.slide{
+    overflow: hidden; 
+    background-size: cover;
+    background-position: center; 
+    justify-content:safe; 
+    height: 100vh;
+    
+}
+/* --------------------------Our value side Style---------------------- */
+
+.our-value{
+    letter-spacing: 3px; 
+    width: 80%;
+}
+
+/* ------------------------About-us Side style------------------------- */
+
+.about-us-text{
+    text-align: justify; 
+    text-indent: 5rem;
+}
+
+/* -----------------------OUR ADVANTAGES  SIDE--------------------------- */
+
+.our-advantage-content{
+    background-image: url('../../img/menu-bg2.jpg'); 
+    background-position: center; 
+    background-size: cover;
+}
+
+/* -----------------------OUR SPACE SIDE------------------------------ */
+
+
+/* ---------------------Menu Side style--------------------- */
+
+.galery-container{
+    overflow: hidden; background-image: url('../../img/menu-background.jpg'); 
+    background-size: cover;
+    
+}
+
+.galery img{
+    transition: .5s all ease-in-out;
+}
+
+.galery:hover img{
+    transform: scale(1.1);
+}
+
+.img-thumbnail{
+    background: #45211f !important;
+    border-color: #45211f !important;
+}
+
+/* -----------------------VIRTUAL MAPS SIDE----------------------- */
+.maps{
+    border:0; 
+    width: 100%; 
+    height: 600px;
+}
+
+.footer-colors{
+    background-color: var(--prestige-marron);
+    color: var(--prestige-white);
+}

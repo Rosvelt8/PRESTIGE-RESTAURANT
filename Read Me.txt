@@ -1,0 +1,7 @@
+--------------------------PRESTIGE WEBSITE READ ME-------------------------------------
+all images of this project are in the img folder
+
+you can update css files or js files in the folder assets/css or assets/js
+
+the folder font stores project's font family
+
